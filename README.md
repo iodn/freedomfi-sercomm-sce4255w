@@ -2,6 +2,8 @@
 
 Generates the root SSH password and the GUI admin password for a FreedomFi Indoor CBRS Radio (Sercomm SCE4255W Englewood) from the device's MAC address.
 
+<img width="600" height="630" alt="FreedomFi Sercomm SCE4255W" src="https://github.com/user-attachments/assets/527df408-a915-40c3-9123-be447251a32e" />
+
 ## What it does
 - Telnet key: generate the root SSH password
 - Debug key: generate the GUI admin password
@@ -66,7 +68,8 @@ OK
 
 5) After the device reboots, the Sercomm GUI should be available at https://11.11.11.188.
 
-    screenshot GUI
+    <img width="1112" height="394" alt="Sercomm SCE4255W GUI Login" src="https://github.com/user-attachments/assets/517ba2fe-25aa-4ce3-a651-e403fc42cae5" />
+
 
 6) Now generate the GUI admin password (Debug key) with the same MAC:
 
@@ -77,6 +80,9 @@ python3 calc_f2.py --mac 3C:62:F0:AA:AA:AA -k Debug
 
 7) Log into the GUI using the debug username (this is the admin account) and the Debug password:
 
-    screenshot GUI
+    <img width="1159" height="462" alt="Sercomm SCE4255W GUI Debug" src="https://github.com/user-attachments/assets/a5fece78-6994-4894-a098-c8996c54b3cf" />
+
+    <img width="1907" height="625" alt="Sercomm SCE4255W GUI Admin" src="https://github.com/user-attachments/assets/74f81076-e5b6-4433-a6f8-afc0e79eb0e5" />
+
 
 And you now have full control over your femtocell.

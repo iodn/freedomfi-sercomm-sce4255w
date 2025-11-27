@@ -29,7 +29,7 @@ python3 calc_f2.py --mac 3C:62:F0:AA:AA:AA -k Debug
 ```
 ## Step-by-step guide to enable Sercomm GUI
 
-1) Connect the small cell FreedomFi's LAN port to your PC. It should obtain an IP address via DHCP (for example, 11.11.11.100).
+1) Connect the small cell FreedomFi's LAN port to your PC. Your PC should obtain an IP address via DHCP (for example, 11.11.11.100).
 
 2) SSH to the device using the account `sc_femto/tsFid2wz` and use the command `rma get mac` to read the MAC address.
 ```bash
